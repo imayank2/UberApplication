@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Ignore everything outside this directory
+/*
+!UberApplication/
+
+# Except the UberApplication folder
+!.gitignore
