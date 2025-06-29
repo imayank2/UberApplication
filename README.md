@@ -81,4 +81,15 @@ Feel free to reach out if you need help or want to contribute!
 
 📧 Email: mayankchauhan8515@gmail.com
 
+## 🧠 System Design (Low-Level Design)
+
+This diagram shows how different parts of the cab booking system work together, like rider, driver, payment, and ride manager.
+
+🔗 **View Online**: [Cab Booking System – Whimsical](https://whimsical.com/cab-booking-system-Q5MoxceAmRWMVtELBzCb8e)
+
+🖼️ **Diagram**:
+
+![Uber LLD Diagram](0ee7431d-bb00-4d9b-a029-dc2f3ba7f2b9.png)
+
+
 
