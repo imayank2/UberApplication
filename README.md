@@ -49,4 +49,36 @@ spring.mail.password=your_email_password
 ./mvnw clean install
 ./mvnw spring-boot:run
 ```
+🔄 API Endpoints (Sample)
+Authentication
+POST /api/auth/signup
+
+POST /api/auth/login
+
+Booking
+POST /api/book – Book a ride
+
+GET /api/book/status/{id} – Check ride status
+
+Drivers
+POST /api/driver/update-location
+
+POST /api/driver/accept/{rideId}
+
+POST /api/driver/reject/{rideId}
+
+📌 Database Schema (Simplified)
+User – id, name, email, password, role
+
+Driver – id, name, rating, location (PostGIS Point)
+
+Ride – id, user_id, driver_id, source, destination, fare, status
+
+📬 Contact
+Feel free to reach out if you need help or want to contribute!
+
+👤 Author: Mayank Chauhan
+
+📧 Email: mayankchauhan8515@gmail.com
+
 
