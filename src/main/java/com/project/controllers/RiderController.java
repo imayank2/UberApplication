@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 @PreAuthorize("hasAnyRole('RIDER', 'ADMIN')")
 @Secured("ROLE_RIDER")
+//@CrossOrigin(origins = "http://localhost:4200")
 
 public class RiderController {
     private final RiderService riderService;

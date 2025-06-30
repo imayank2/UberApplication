@@ -6,7 +6,7 @@ import com.project.entities.User;
 import com.project.repository.UserRepository;
 import com.project.service.AdminService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.access.prepost.PreAuthorize;
+//import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/admin")
+//@CrossOrigin(origins = "http://localhost:4200")
 public class AdminController {
 
     private  final UserRepository userRepository;
